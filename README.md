@@ -4,15 +4,15 @@ A Movie Recommender System using Cosine Similarity Algorithm
 This project is a Movie Recommender System that suggests movies based on a selected movie's similarity to others. The system utilizes a machine learning model to determine the similarity between movies, allowing users to receive personalized movie recommendations. The application fetches movie details, including posters, from the TMDB (The Movie Database) API and displays them in a user-friendly interface using Streamlit.
 
 # Functionality:
-Movie Selection: Users can select a movie from a dropdown menu.
-Recommendation: Upon selecting a movie, the app suggests five similar movies.
-Poster Display: The application retrieves and displays the posters of the recommended movies.
+1. Movie Selection: Users can select a movie from a dropdown menu.
+2. Recommendation: Upon selecting a movie, the app suggests five similar movies.
+3. Poster Display: The application retrieves and displays the posters of the recommended movies.
 
 # Steps Involved:
-Data Loading: Load preprocessed movie data and a similarity matrix from pickle files.
-Fetching Movie Poster: Use the TMDB API to fetch movie posters for the recommended movies.
-Recommendation Algorithm: Calculate the similarity between the selected movie and other movies to generate recommendations.
-User Interface: Use Streamlit to create an interactive interface where users can select a movie and view recommendations.
+1. Data Loading: Load preprocessed movie data and a similarity matrix from pickle files.
+2. Fetching Movie Poster: Use the TMDB API to fetch movie posters for the recommended movies.
+3. Recommendation Algorithm: Calculate the similarity between the selected movie and other movies to generate recommendations.
+4. User Interface: Use Streamlit to create an interactive interface where users can select a movie and view recommendations.
 
 
 # Tech Stack
